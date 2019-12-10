@@ -16,16 +16,60 @@
                         Microverse Survey Form by @gio and @michealsheggs
                 </p>
             </h1>
+            <div class="container">
+                    <div class="row">
+                      <div class="col-md-6 offset-md-3 text-white tex">
+                          <p id ="description">
+                            Thank you for checking our website design for Survey form!
+                          </p>
+                        </div>
+                    </div>
             </div>
         </header>
-        <div class="container">
-            <div class="row">
-              <div class="col-md-6 offset-md-3 text-white text-center">Thank you for checking our website design for Survey form!</div>
-            </div>
-          </div>   
-            
-  </body>
 
+        <form id="survey-form" class="col-md-6 offset-md-3 text-white bg-info">   
+            <div class="container">
+                    <div class="row">
+                        <div class="col"><label id="name-label">Name</label> </div>
+                        <div class="col"><input type="text" class="form-control bg-dark text-white" id="name" placeholder="Please, enter your name!" value="" required=""></div>    
+                    </div> 
+                    <div class="row">
+                        <div class="col"><label id="email-label">E-mail</label> </div>
+                        <div class="col"><input type="email" class="form-control bg-dark text-white" id="email" placeholder="Please, enter your e-mail!" value="" required=""></div>    
+                    </div> 
+                    <div class="row">
+                        <div class="col"><label id="number-label">Lucky Number</label> </div>
+                        <div class="col"><input type="number" class="form-control bg-dark text-white" id="number" placeholder="Please, enter your lucky number!" value="" required="" min="0" max="1000"></div>    
+                    </div> 
+                    <div class="row">
+                        <div class="col"><label id="number-label">Why you love Microverse?</label> </div>
+                        <div class="col">
+                            <select class="form-control bg-dark text-white" id="dropdown">
+                                <option value="firstc">Because i learn lot</option>
+                                <option value="secondc">Because i got many friends</option>
+                                <option value="thirdc">Because it teaches collabration</option>
+                                <option value="fourthc">All</option>
+                            </select>
+                        </div>    
+                    </div> 
+
+
+            </div>      
+
+            <hr class="mb-1">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-5"><button type="submit" class="btn btn-outline-dark btn-lg btn-block" id="submit" type="submit">Send me</button></div>
+                <div class="col"></div>
+            </div>
+            <hr class="mb-1">
+        </form> 
+
+
+
+ 
+  </body>
+            
 
 
   </html>
